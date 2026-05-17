@@ -1,0 +1,6 @@
+# Cloud Automation Project - Cron Jobs
+
+# Monitoring Script (Every 5 minutes)
+# Continuously tracks system activity and logs events
+
+*/5 * * * * cd /root/cloud-autoops-project/scripts/python && python3 monitor.py
